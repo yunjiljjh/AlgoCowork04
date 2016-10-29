@@ -10,7 +10,7 @@ public class InputReader {
 	private BufferedReader br;
 	
 	public int numOfTestcase;
-	public int numOfColumn;
+	private int numOfColumn;
 	
 	private Checkboard board; //checkboard of a test case
 	private int tmpBoard[][];
@@ -35,15 +35,14 @@ public class InputReader {
 			checkboardOfTestCases = new Checkboard[numOfTestcase];
 					
 			//one test case per a loop
-			for(int i =0 ; i <numOfTestcase ; i++){
+			for(int i =0 ; i < numOfTestcase ; i++){
 				numOfColumn  = Integer.parseInt(br.readLine());
 				tmpBoard = new int[4][numOfColumn];	
 				
 				//one board per a loop
 				for(int k = 0 ; k <4 ; k++){
-					String ss = null;
 					s = br.readLine();
-					String[] aa = s.split(" ");
+					String[] aa = s.split(" "); 
 					//aa배열에 받은 한 row에서의 숫자들 저장 (numOfColumn개 numbers) 
 					
 					if (aa.length < 1){throw new IOException();}
