@@ -6,8 +6,6 @@ public class Main {
 		// TODO Auto-generated method stub
 		System.out.println("run");
 		InputReader reader=new InputReader("C:\\hw4\\input.txt");
-		
-		//int a[][];
 	}
 
 }

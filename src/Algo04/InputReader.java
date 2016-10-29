@@ -50,11 +50,10 @@ public class InputReader {
 					for(int j = 0;j < numOfColumn;j++){
 						tmpBoard[k][j] = Integer.parseInt(aa[j]);						
 					}
-				} //a board is filled
+				} //a board is filled	
 				board = new Checkboard(numOfColumn, tmpBoard);
 				checkboardOfTestCases[i] = board;
 			} // test case loop ends
-
 			}catch(IOException e){
 			e.printStackTrace();
 		}finally{
