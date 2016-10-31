@@ -1,3 +1,8 @@
+/* (CSI 3108-01) Algorithm Analysis class HW4 DPPebble
+ * Lee, Yun Ji	(2013198070)  	 
+ * Nam, Hyo Rim (2013147531)
+ * 2016 Fall */
+/**/
 package Algo04;
 
 public class Checkboard {
